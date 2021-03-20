@@ -44,6 +44,8 @@ class ML:
         
         self.model.compile(loss='cateogrical_crossentropy', optimizer='adam', metrics=['accuracy'])
         
+        self.model.summary()
+        
         
  
         
