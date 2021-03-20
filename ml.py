@@ -13,13 +13,19 @@ class ML:
 
     
     def load_data(self):
-        # (X_train, y_train), (X_valid, y_valid)
+        # (self.X_train, self.y_train), (self.X_valid, self.y_valid)
         pass
     
     
     
     def preprocess_data(self):
-        pass
+        self.X_train = self.X_train.reshape(60000, 784).astype('float32')
+        self.X_valid = self.X_valid.reshape(10000, 784).astype('float32')
+        self.X_train /= 255
+        self.X_valid /= 255
+        n_classes = 10
+        self.y_train = keras.utils.to_categorical(self.y_train, n_classes)
+        self.y_valid = keras.utils.to_categorical(self.y_valid, n_classes)
     
         
     def load_model(self):
