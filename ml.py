@@ -41,7 +41,7 @@ class ML:
         
         self.model.add(Dense(10, activation='softmax'))
         
-        self.model.compile(loss='cateogrical_crossentropy', optimizer='adam', metrics=['accuracy'])
+        self.model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
         
         self.model.summary()
         
