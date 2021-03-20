@@ -10,6 +10,11 @@ class ML:
         # (X_train, y_train), (X_valid, y_valid)
         pass
     
+    
+    
+    def preprocess_data(self):
+        pass
+    
         
     def load_model(self):
         self.model = Sequential()
