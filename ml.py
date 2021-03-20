@@ -18,7 +18,7 @@ class ML:
         self.model.Add(BatchNormalization())
         self.model.add(Dropout(0.2))
         
-        self.model.compile(loss='cateogrical_crossentroy', optimizer='adam', metrics=['accuracy'])
+        self.model.compile(loss='cateogrical_crossentropy', optimizer='adam', metrics=['accuracy'])
         
         
  
