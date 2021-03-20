@@ -18,6 +18,8 @@ class ML:
         self.model.Add(BatchNormalization())
         self.model.add(Dropout(0.2))
         
+        self.model.add(Dense(10, activation='softmax'))
+        
         self.model.compile(loss='cateogrical_crossentropy', optimizer='adam', metrics=['accuracy'])
         
         
