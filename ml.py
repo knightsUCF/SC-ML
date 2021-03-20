@@ -5,7 +5,13 @@ from keras.layers.normalization import BatchNormalization
 
 class ML:
 
-    def load(self):
+    
+    def load_data(self):
+        # (X_train, y_train), (X_valid, y_valid)
+        pass
+    
+        
+    def load_model(self):
         self.model = Sequential()
 
         # layer 1
