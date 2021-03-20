@@ -17,7 +17,6 @@ class ML:
         pass
     
     
-    
     def preprocess_data(self):
         self.X_train = self.X_train.reshape(60000, 784).astype('float32')
         self.X_valid = self.X_valid.reshape(10000, 784).astype('float32')
