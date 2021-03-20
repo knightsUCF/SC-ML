@@ -47,6 +47,11 @@ class ML:
         self.model.summary()
         
         
+   def train_model(self):
+       self.model.fit(self.X_train, self.y_train, batch_size=128, epochs=20, verbose=1, validation_data=(self.X_valid, self.y_valid))
+    
+        
+        
  
         
         
