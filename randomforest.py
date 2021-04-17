@@ -157,8 +157,13 @@ def search_for_optimal_parameters():
 
     max_depth_step = 5
     max_depth_upper_bound = 50
+    max_depth_runs = 50
 
     max_leaf_nodes_step = 2
+    max_leaf_nodes_runs = 20
+
+
+    print('approximate running time: ', max_depth_runs * max_leaf_nodes_runs * 2 / 60, ' minutes')
 
 
     """
@@ -196,7 +201,7 @@ def search_for_optimal_parameters():
     print('running new model for parameters: ')
 
     # max depth
-    for i in range(50):
+    for i in range(max_depth_runs):
         _max_depth = i * max_depth_step # standard: None
         if _max_depth == 0:
             _max_depth = 1
@@ -207,7 +212,7 @@ def search_for_optimal_parameters():
         print('max depth: ', _max_depth)
 
         # max leaf nodes
-        for j in range(10):
+        for j in range(max_leaf_nodes_runs):
             # max leaf nodes: standard: None
             _max_leaf_nodes = j * max_leaf_nodes_step  # standard: None
             if _max_leaf_nodes == 0 or _max_leaf_nodes == 1:
