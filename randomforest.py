@@ -77,7 +77,6 @@ x = pd.read_hdf(train_set_file_path).to_numpy()
 y = pd.read_csv(train_label_file_path, header=None, sep="\t")
 
 # to be rigorous, let's do a 50 / 50 split, 50% training data, 50% unknown data
-
 x_training = x[:500] # max 1000 available samples
 y_training = convert_labels_to_numeric(y[1][:500])
 
