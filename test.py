@@ -6,7 +6,7 @@ ml = ml.ML()
 
 
 
-# rerun preprocessing on data
+# run preprocessing on data
 preprocessing.run() # here is when we can later pass in the different data file path
 
 # send preprocessed data to the ml model
