@@ -157,13 +157,13 @@ def search_for_optimal_parameters():
 
     max_depth_step = 5
     max_depth_upper_bound = 50
-    max_depth_runs = 50
+    max_depth_runs = 25
 
     max_leaf_nodes_step = 2
-    max_leaf_nodes_runs = 20
+    max_leaf_nodes_runs = 25
 
 
-    print('approximate running time: ', max_depth_runs * max_leaf_nodes_runs * 2 / 60, ' minutes')
+    print('approximate running time: ', round(max_depth_runs * max_leaf_nodes_runs * 2 / 60, 2), ' minutes')
 
 
     """
