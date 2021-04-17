@@ -25,7 +25,6 @@ class Preprocessing:
         self.test_set = pd.read_hdf(self.test_set_file_path, key="dge")
 
 
-    
     def scale_sets(self, sets):
         # Get common genes, normalize  and scale the sets
         # input -- a list of all the sets to be scaled
@@ -60,7 +59,6 @@ class Preprocessing:
             type_to_label_dict[all_type[i]] = i
         return type_to_label_dict
 
-
     
     def one_hot_matrix(self, labels, C):
         # Turn labels into matrix
@@ -73,7 +71,6 @@ class Preprocessing:
         sess.close()
         return one_hot
 
-
     
     def convert_type_to_label(self, types, type_to_label_dict):
         # Convert types to labels
@@ -84,7 +81,6 @@ class Preprocessing:
         for type in types:
             labels.append(type_to_label_dict[type])
         return labels
-
 
 
     def process_data(self):
@@ -111,7 +107,6 @@ class Preprocessing:
 
         self.train_label = self.convert_type_to_label(self.train_label.iloc[:,1], type_to_label_dict)
         self.train_label = self.one_hot_matrix(self.train_label, nt)
-
 
 
     def run(self):
