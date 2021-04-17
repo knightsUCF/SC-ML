@@ -84,9 +84,9 @@ y_training = convert_labels_to_numeric(y[1][:500])
 """
 including the trained data
 
+sample_size = 1000
 x_verification = x[:1000]
 y_verification = convert_labels_to_numeric(y[1][:1000])
-sample_size = 1000
 """
 
 # not including the trained data
