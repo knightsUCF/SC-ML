@@ -103,8 +103,9 @@ sample_size = 500
 x_verification = x[500:1000]
 y_verification = convert_labels_to_numeric(y[1][500:1000])
 
+# RESULTS
 # after 50 / 50 split
-# 72% accuracy including the data
+# ~72% accuracy including the data
 # ~44.4% accuracy not including the data (2% variance on each run)
 
 
