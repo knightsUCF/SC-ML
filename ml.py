@@ -14,6 +14,8 @@ class ML:
 
 
     def create_superct_model(self):
+        self.batch_size = 25
+        self.epochs = 40
         n_features = 13331
         self.model = Sequential()
         self.model.add(Dense(200, input_dim = n_features, activation = 'relu'))
@@ -35,7 +37,7 @@ class ML:
     def train_model(self):
         self.train_set = self.train_set.T
         self.train_label = self.train_label.T
-        self.model.fit(self.train_set, self.train_label, batch_size=25, epochs=40, verbose=1) #, validation_data=())
+        self.model.fit(self.train_set, self.train_label, batch_size=self.batch_size, epochs=self.epochs, verbose=1) #, validation_data=())
 
 
 
