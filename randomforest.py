@@ -42,32 +42,26 @@ def convert_labels_to_numeric(data):
 
 
 def run_stats():
+    global sample_size
     number_of_correct_guesses = 0
     number_of_incorrect_guesses = 0
-
-    global sample_size
     i = 0
+
     for data_point in range(sample_size):
         sample = np.asarray(x_verification[i])
         predicted_sample = clf.predict([sample])
-
         print(predicted_sample[0])
         print(y_verification[i])
-
         if predicted_sample[0] == y_verification[i]:
             number_of_correct_guesses += 1
         else:
             number_of_incorrect_guesses += 1
-
         i += 1
 
     print('number of corrected guesses: ', number_of_correct_guesses)
     print('number of incorrect guesses: ', number_of_incorrect_guesses)
-
     total = number_of_correct_guesses + number_of_incorrect_guesses
-
     accuracy_percent = number_of_correct_guesses / total * 100
-
     print('accuracy: ', accuracy_percent, '%')
 
 
