@@ -58,7 +58,7 @@ def run_stats():
             number_of_incorrect_guesses += 1
         i += 1
 
-    print('number of corrected guesses: ', number_of_correct_guesses)
+    print('number of correct guesses: ', number_of_correct_guesses)
     print('number of incorrect guesses: ', number_of_incorrect_guesses)
     total = number_of_correct_guesses + number_of_incorrect_guesses
     accuracy_percent = number_of_correct_guesses / total * 100
