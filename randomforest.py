@@ -1,7 +1,9 @@
 from sklearn.ensemble import RandomForestClassifier
 import pandas as pd
 import numpy as np
-# windows users might need anaconda / conda for pytables
+
+
+
 
 
 def convert_labels_to_numeric(data):
@@ -43,8 +45,9 @@ def run_stats():
     number_of_correct_guesses = 0
     number_of_incorrect_guesses = 0
 
+    global sample_size
     i = 0
-    for data_point in range(1000):
+    for data_point in range(sample_size):
         sample = np.asarray(x_verification[i])
         predicted_sample = clf.predict([sample])
 
@@ -86,8 +89,24 @@ x_training = x[:500] # max 1000 available samples
 y_training = convert_labels_to_numeric(y[1][:500])
 
 
+
+"""
+including the trained data
+
 x_verification = x[:1000]
 y_verification = convert_labels_to_numeric(y[1][:1000])
+sample_size = 1000
+"""
+
+# not including the trained data
+sample_size = 500
+x_verification = x[500:1000]
+y_verification = convert_labels_to_numeric(y[1][500:1000])
+
+# after 50 / 50 split
+# 72% accuracy including the data
+# ~44.4% accuracy not including the data (2% variance on each run)
+
 
 
 # set up random forest model
