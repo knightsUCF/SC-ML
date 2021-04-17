@@ -105,8 +105,8 @@ y_verification = convert_labels_to_numeric(y[1][500:1000])
 
 # RESULTS
 # after 50 / 50 split
-# ~72% accuracy including the data
-# ~44.4% accuracy not including the data (2% variance on each run)
+# ~72% accuracy including the trained data
+# ~44.4% accuracy not including the trained data (2% variance on each run)
 
 
 
