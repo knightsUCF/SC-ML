@@ -1,0 +1,19 @@
+superct_v0_Liver_2.csv
+the number of observations: 208
+the number of features: 16705
+loss
+	1.1365002592356177e-06
+	1.1365002592356177e-06
+
+accuracy
+	0.0
+	0.0
+
+val_loss
+	1.1471084917502594e-06
+	1.1471084917502594e-06
+
+val_accuracy
+	0.0
+	0.0
+

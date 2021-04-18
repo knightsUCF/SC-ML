@@ -1,0 +1,15 @@
+superct_v0_PeripheralBlood_4.csv
+the number of observations: 108
+the number of features: 14961
+loss
+	6.214337417986826e-07
+
+accuracy
+	0.018518518656492233
+
+val_loss
+	5.474798285831639e-07
+
+val_accuracy
+	0.0
+
