@@ -3,9 +3,9 @@ import forest
 import graph
 
 
-data = data()
-forest = Forest()
-graph = Graph()
+data = data.data()
+forest = forest.Forest()
+graph = graph.Graph()
 
 
 features = data.get_features()
