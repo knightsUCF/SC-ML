@@ -15,7 +15,6 @@ class Data:
         self.features = self.features_df.to_numpy()
         self.targets_df = pd.read_csv('data/targets.txt.gz', header=None,  sep="\t")
         self.targets = self.convert_to_numeric_labels(self.targets_df[1])
-
         print(self.features_df)
         print(self.targets_df)
 
