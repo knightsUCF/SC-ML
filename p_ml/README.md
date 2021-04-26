@@ -7,8 +7,6 @@ Data was obtained from the Actinn single cell prediction project. A 50 / 50, tra
 
 https://github.com/mafeiyang/ACTINN
 
-### Data structure
-
 <b>Features</b>
 
 ```
