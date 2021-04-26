@@ -217,8 +217,8 @@ Run 10
 
 ## Run 9
 
-![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%2109.png)
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%209.png)
 
 ## Run 10
 
-![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%2110.png)
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%210.png)
