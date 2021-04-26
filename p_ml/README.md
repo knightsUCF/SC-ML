@@ -182,6 +182,12 @@ Run 10
 0.012444      Ms4a1
 ```
 
+## Confusion Matrix
+
+Note: this confusion matrix was run on a different time, so this is within 1% of variance of the above data. However the charts below were run at the same time as the run data.
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/confusion%20matrix.png)
+
 ## Run 1
 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%201.png)
