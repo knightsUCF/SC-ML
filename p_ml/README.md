@@ -228,6 +228,10 @@ Note: this confusion matrix was run at a different time than the above data, so 
 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/confusion%20matrix.png)
 
+## Trials
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/trials.png)
+
 ## Run 1
 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%201.png)
