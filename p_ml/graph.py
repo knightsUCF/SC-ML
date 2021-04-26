@@ -1,10 +1,12 @@
+import seaborn as sn
+import matplotlib.pyplot as plt
 from bokeh.plotting import figure, output_file, show 
 from bokeh.palettes import magma
 from bokeh.models import ColorBar, ColumnDataSource
 from bokeh.palettes import Spectral6, YlGnBu, Blues, Magma6, Viridis6
 from bokeh.plotting import figure, output_file, show
 from bokeh.transform import linear_cmap
-import random
+
         
 
 
