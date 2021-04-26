@@ -18,7 +18,7 @@ net.train(features, targets)
 net.evaluate()
 
 
-# Random Forest improvement
+# Random Forest
 forest.build()
 forest.train(features, targets)
 forest.evaluate()
