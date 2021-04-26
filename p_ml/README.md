@@ -7,7 +7,9 @@ Data was obtained from the Actinn single cell prediction project. A 50 / 50, tra
 
 https://github.com/mafeiyang/ACTINN
 
-Data structure:
+### Data structure
+
+<b>Features</b>
 
 ```
                0610005C13Rik  0610007C21Rik  0610007L01Rik  0610007N19Rik  0610007P08Rik  ...  Zyx  Zzef1  Zzz3    a  l7Rn6
@@ -22,8 +24,12 @@ tma_mfd_13712            0.0            0.0            0.0            0.0       
 tma_mfd_33269            0.0            1.0            0.0            0.0            0.0  ...  1.0    0.0   0.0  0.0    0.0
 tma_mfd_32996            0.0            0.0            1.0            1.0            0.0  ...  0.0    0.0   1.0  0.0    3.0
 tma_mfd_33381            0.0            1.0            0.0            0.0            0.0  ...  0.0    0.0   0.0  0.0    0.0
-
 [1000 rows x 14063 columns]
+```
+
+<b>Labels</b>
+
+```
                  0            1
 0     tma_mfd_1808       B cell
 1    tma_mfd_32608       T cell
@@ -37,6 +43,7 @@ tma_mfd_33381            0.0            1.0            0.0            0.0       
 998  tma_mfd_32996       T cell
 999  tma_mfd_33381       T cell
 ```
+
 
 ## Running
 
