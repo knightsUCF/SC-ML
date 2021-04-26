@@ -25,7 +25,7 @@ tma_mfd_33381            0.0            1.0            0.0            0.0       
 [1000 rows x 14063 columns]
 ```
 
-<b>Labels</b>
+<b>Labels / Targets</b>
 
 ```
                  0            1
