@@ -23,10 +23,6 @@ class Forest:
         self.model.fit(x_train, y_train)
 
 
-    def predict(self):
-        pass
-
-
     def evaluate(self):
         print('Random Forest accuracy: ', self.model.score(self.x_test, self.y_test))
         feature_importances = self.model.feature_importances_
