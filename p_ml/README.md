@@ -1,5 +1,9 @@
 # SC-ML
 
+Prediction Model Improvement of Cell Type by Gene Expression
+
+Jie Lin and Piotr Kwiatkowski
+
 
 ## Data
 
