@@ -4,7 +4,10 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import numpy as np
+import graph
 
+
+graph = graph.Graph()
 
 
 
@@ -38,6 +41,8 @@ class Forest:
         confusion_matrix = pd.crosstab(self.y_test, y_pred, rownames=['Actual'], colnames=['Predicted'])
         sn.heatmap(confusion_matrix, annot=True)
         target_names_count = 1000
+        graph.significant_features(self.get_significant_features()) # these are separated so we can get them from other classes
+        graph.confusion_matrix(self.get_confusion_matrix())
 
 
     def get_significant_features(self):
