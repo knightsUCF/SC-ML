@@ -182,4 +182,43 @@ Run 10
 0.012444      Ms4a1
 ```
 
+## Run 1
+
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%201.png)
+
+## Run 2
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%202.png)
+
+## Run 3
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%203.png)
+
+## Run 4
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%204.png)
+
+## Run 5
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%205.png)
+
+## Run 6
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%206.png)
+
+
+## Run 7
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%207.png)
+
+## Run 8
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%208.png)
+
+## Run 9
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%2109.png)
+
+## Run 10
+
+![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%2110.png)
