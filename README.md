@@ -7,4 +7,9 @@ Data was obtained from the Actinn single cell prediction project. All of the dat
 
 https://github.com/mafeiyang/ACTINN
 
+## Running
+
+To run the models run main.py:
+
+
 
