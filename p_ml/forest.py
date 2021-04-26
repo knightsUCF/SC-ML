@@ -2,8 +2,6 @@ import data
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-import seaborn as sn
-import matplotlib.pyplot as plt
 from sklearn import metrics
 import numpy as np
 
