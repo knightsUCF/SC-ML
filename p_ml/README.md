@@ -7,7 +7,7 @@ Data was obtained from the Actinn single cell prediction project. A 50 / 50, tra
 
 https://github.com/mafeiyang/ACTINN
 
-<b>Features / Samples</b>
+<b>Features / Samples (14,000)</b>
 
 ```
                0610005C13Rik  0610007C21Rik  0610007L01Rik  0610007N19Rik  0610007P08Rik  ...  Zyx  Zzef1  Zzz3    a  l7Rn6
@@ -25,7 +25,7 @@ tma_mfd_33381            0.0            1.0            0.0            0.0       
 [1000 rows x 14063 columns]
 ```
 
-<b>Labels / Targets</b>
+<b>Labels / Targets (1000)</b>
 
 ```
                  0            1
