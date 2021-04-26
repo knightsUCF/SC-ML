@@ -8,8 +8,6 @@ from sklearn import metrics
 import numpy as np
 
 
-data = data.Data()
-
 
 
 class Forest:
