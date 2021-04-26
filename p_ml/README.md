@@ -11,7 +11,7 @@ Data was obtained from the Actinn single cell prediction project. A 50 / 50, tra
 
 https://github.com/mafeiyang/ACTINN
 
-<b>Features / Samples (14,000)</b>
+<b>Features (14,000) / Samples (1,000) </b>
 
 ```
                0610005C13Rik  0610007C21Rik  0610007L01Rik  0610007N19Rik  0610007P08Rik  ...  Zyx  Zzef1  Zzz3    a  l7Rn6
