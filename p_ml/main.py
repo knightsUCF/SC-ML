@@ -1,6 +1,6 @@
 import data
+import net
 import forest
-import graph
 
 
 data = data.data()
