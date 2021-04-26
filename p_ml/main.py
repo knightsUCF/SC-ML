@@ -22,5 +22,4 @@ forest.build()
 forest.train(features, targets)
 forest.evaluate()
 
-graph.significant_features(forest.get_significant_features())
-graph.confusion_matrix(forest.get_confusion_matrix())
+
