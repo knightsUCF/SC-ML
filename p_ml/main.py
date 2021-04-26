@@ -12,7 +12,7 @@ features = data.get_features()
 targets = data.get_targets()
 
 
-# SuperCT neural network
+# SuperCT
 net.build()
 net.train(features, targets)
 net.evaluate()
