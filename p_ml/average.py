@@ -11,8 +11,11 @@ data = data.Data()
 forest = forest.Forest()
 
 
+
 runs = 1000 # how many times to run random forest before extracting averages
 samples_to_graph = 100
+
+data.keep_only_b_and_t_cells() # this drops the rest of the cell types so we can just compare B and T cells
 
 features = data.get_features()
 targets = data.get_targets()
@@ -42,7 +45,6 @@ def determine_averages(runs):
     df0 = df0.sort_values(by = 'rank')
 
     return df0
-
 
 
 significant_genes = determine_averages(runs)
