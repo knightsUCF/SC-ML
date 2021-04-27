@@ -17,23 +17,28 @@ targets = data.get_targets()
 forest.build()
 forest.train(features, targets)
 
-# we need to build a reference dataframe, which will gave the gene names as indexes to merge
-
-df0 = forest.get_significant_features()
-df0['significance'] = df0.index
-df0 = df0.set_index('Gene names')
 
 
-for i in range(2):
-    forest.train(features, targets)
-    df1 = forest.get_significant_features()
-    df1['significance'] = df1.index
-    df1 = df1.set_index('Gene names')
-    df0 = df0.merge(df1, left_index=True, right_index=True)
+
+def determine_averages(runs):
+    # we need to build a reference dataframe, which will gave the gene names as indexes to merge
+    df0 = forest.get_significant_features()
+    df0['significance'] = df0.index
+    df0 = df0.set_index('Gene names')
+
+    for i in range(runs):
+        forest.train(features, targets)
+        df1 = forest.get_significant_features()
+        df1['significance'] = df1.index
+        df1 = df1.set_index('Gene names')
+        df0 = df0.merge(df1, left_index=True, right_index=True)
+
+    df0['average'] = df0.mean(numeric_only=True, axis=1)
+    df0['rank'] = df0['average'].rank(ascending = 0)
+    df0 = df0.sort_values(by = 'rank')
+
+    print(df0)
 
 
-df0['average'] = df0.mean(numeric_only=True, axis=1)
-df0['rank'] = df0['average'].rank(ascending = 0)
-df0 = df0.sort_values(by = 'rank')
+determine_averages(10)
 
-print(df0)
