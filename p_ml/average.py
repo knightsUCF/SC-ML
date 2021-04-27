@@ -21,7 +21,7 @@ forest.train(features, targets)
 
 
 def determine_averages(runs):
-    # we need to build a reference dataframe, which will gave the gene names as indexes to merge
+    # we need to build a reference dataframe, which will contain the gene names as indexes to merge
     df0 = forest.get_significant_features()
     df0['significance'] = df0.index
     df0 = df0.set_index('Gene names')
