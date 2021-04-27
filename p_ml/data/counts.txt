@@ -1,0 +1,134 @@
+running counts per cell type:  B cell
+
+Most significant gene counts:
+
+H2-Aa
+H2-Eb1
+Cd79a
+
+Cd79a:  5714.0
+H2-Aa:  9838.0
+H2-Eb1:  7507.0
+Cd3d:  29.0
+Cd3e:  6.0
+Faim3:  1491.0
+Tyrobp:  208.0
+Fyb:  10.0
+Fcer1g:  44.0
+Tmem66:  75.0
+2010001M09Rik:  1418.0
+Mef2c:  743.0
+Fxyd5:  227.0
+Skap1:  8.0
+Cd247:  3.0
+Gzma:  17.0
+Nkg7:  17.0
+
+
+running counts per cell type:  T cell
+
+Most significant gene counts:
+
+Cd3d
+Tmem66
+Cd3e
+
+Cd79a:  29.0
+H2-Aa:  100.0
+H2-Eb1:  75.0
+Cd3d:  1768.0
+Cd3e:  904.0
+Faim3:  6.0
+Tyrobp:  35.0
+Fyb:  511.0
+Fcer1g:  60.0
+Tmem66:  929.0
+2010001M09Rik:  17.0
+Mef2c:  2.0
+Fxyd5:  885.0
+Skap1:  440.0
+Cd247:  411.0
+Gzma:  88.0
+Nkg7:  551.0
+
+
+running counts per cell type:  NK cell
+
+Most significant gene counts:
+
+Gzma
+Nkg7
+Tyrobp
+
+
+Cd79a:  30.0
+H2-Aa:  80.0
+H2-Eb1:  55.0
+Cd3d:  12.0
+Cd3e:  0.0
+Faim3:  19.0
+Tyrobp:  1083.0
+Fyb:  46.0
+Fcer1g:  817.0
+Tmem66:  54.0
+2010001M09Rik:  21.0
+Mef2c:  12.0
+Fxyd5:  225.0
+Skap1:  49.0
+Cd247:  36.0
+Gzma:  3609.0
+Nkg7:  1439.0
+
+
+running counts per cell type:  Granulocyte
+
+Most significant gene counts:
+
+Tyrobp
+Fcer1g
+Fxyd5
+
+Cd79a:  16.0
+H2-Aa:  18.0
+H2-Eb1:  13.0
+Cd3d:  11.0
+Cd3e:  0.0
+Faim3:  1.0
+Tyrobp:  1571.0
+Fyb:  32.0
+Fcer1g:  1151.0
+Tmem66:  12.0
+2010001M09Rik:  4.0
+Mef2c:  4.0
+Fxyd5:  229.0
+Skap1:  0.0
+Cd247:  0.0
+Gzma:  1.0
+Nkg7:  97.0
+
+
+running counts per cell type:  Monocyte
+
+Most significant gene counts:
+
+Tyrobp
+Fcer1g
+Fxyd5
+
+Cd79a:  8.0
+H2-Aa:  233.0
+H2-Eb1:  138.0
+Cd3d:  2.0
+Cd3e:  0.0
+Faim3:  2.0
+Tyrobp:  2083.0
+Fyb:  112.0
+Fcer1g:  1565.0
+Tmem66:  48.0
+2010001M09Rik:  2.0
+Mef2c:  18.0
+Fxyd5:  615.0
+Skap1:  0.0
+Cd247:  0.0
+Gzma:  22.0
+Nkg7:  8.0
