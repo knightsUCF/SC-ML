@@ -2,7 +2,6 @@
 
 ### Prediction Model Improvement of Cell Types by Gene Expression
 
-<i>Jie Lin and Piotr Kwiatkowski</i>
 
 ## Contents
 
