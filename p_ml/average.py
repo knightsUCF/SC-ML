@@ -7,24 +7,21 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import plotly.express as px
 
-
 data = data.Data()
 forest = forest.Forest()
-
-features = data.get_features()
-targets = data.get_targets()
 
 
 
 runs = 1000 # how many times to run random forest before extracting averages
 samples_to_graph = 100
 
+features = data.get_features()
+targets = data.get_targets()
+
 
 # Random Forest
 forest.build()
 forest.train(features, targets)
-
-
 
 
 def determine_averages(runs):
@@ -50,8 +47,6 @@ def determine_averages(runs):
 
 
 significant_genes = determine_averages(runs)
-
-
 fig1 = px.scatter(significant_genes[:samples_to_graph], x = significant_genes.index[:samples_to_graph], y=significant_genes['average'][:samples_to_graph]) 
 
 fig1.update_layout(
