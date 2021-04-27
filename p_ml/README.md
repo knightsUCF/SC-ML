@@ -288,3 +288,8 @@ Note: this confusion matrix was run at a different time than the above data, so 
 # V. Gene Significance Averaged After 1000 Random Forest Runs
 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/Gene%20Significance%201000%20Runs.png)
+
+
+# VI. Most Significant Gene Features per Immune Cell Type
+
+
