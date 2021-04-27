@@ -2,6 +2,8 @@
 
 ### Prediction Model Improvement of Cell Types by Gene Expression
 
+Here is the overview for the project which aimed to improve upon the SuperCT method of classifying cells based on gene expression.
+
 
 ## Contents
 
