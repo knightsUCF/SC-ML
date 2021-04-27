@@ -3,6 +3,9 @@ import net
 import forest
 import graph
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+import plotly.express as px
 
 
 data = data.Data()
@@ -37,8 +40,29 @@ def determine_averages(runs):
     df0['rank'] = df0['average'].rank(ascending = 0)
     df0 = df0.sort_values(by = 'rank')
 
-    print(df0)
+    return df0
 
 
-determine_averages(10)
+
+significant_genes = determine_averages(2)
+
+samples_to_graph = 100
+
+fig1 = px.scatter(significant_genes[:samples_to_graph], x = significant_genes.index[:samples_to_graph], y=significant_genes['average'][:samples_to_graph]) 
+
+fig1.update_layout(
+    title="Significant Genes to Subset Immune Cells",
+    xaxis_title="Gene",
+    yaxis_title="Significance",
+    legend_title="Legend Title",
+    font=dict(
+        family="Helvetica, monospace",
+        size=15,
+        color="RebeccaPurple"
+    )
+)
+
+fig1.show()
+
+
 
