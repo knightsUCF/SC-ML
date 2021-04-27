@@ -10,9 +10,9 @@
 #### II. Running
 #### III. Confusion Matrix
 #### IV. Charts for Gene Significant Runs
-#### V. Average Gene Significance based on 1000 Runs of Random Forest
+#### V. Gene Significance Averaged After 1000 Random Forest Runs
 
-## Data
+## I. Data
 
 Data was obtained from the Actinn single cell prediction project. A 50 / 50, train test split was used.
 
@@ -54,7 +54,7 @@ tma_mfd_33381            0.0            1.0            0.0            0.0       
 ```
 
 
-## Running
+## II. Running
 
 To run the models run main.py:
 
@@ -229,13 +229,13 @@ Run 10
 0.012444      Ms4a1
 ```
 
-## Confusion Matrix
+## III. Confusion Matrix
 
 Note: this confusion matrix was run at a different time than the above data, so this is within a 1% variance. However the charts below were run at the same time as the above data.
 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/confusion%20matrix.png)
 
-## Trials
+## IV. Charts for Gene Significant Runs
 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/trials.png)
 
@@ -281,6 +281,6 @@ Note: this confusion matrix was run at a different time than the above data, so 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/run%2010.png)
 
 
-# Gene Significance Averaged After 1000 Random Forest Runs
+# V. Gene Significance Averaged After 1000 Random Forest Runs
 
 ![](https://github.com/knightsUCF/SC-ML/blob/main/p_ml/images/Gene%20Significance%201000%20Runs.png)
