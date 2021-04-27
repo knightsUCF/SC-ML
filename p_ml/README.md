@@ -6,11 +6,11 @@
 
 ## Contents
 
-### I. Data
-### II. Running
-### III. Confusion Matrix
-### IV. Charts for Gene Significant Runs
-### V. Average Gene Significance based on 1000 Runs of Random Forest
+#### I. Data
+#### II. Running
+#### III. Confusion Matrix
+#### IV. Charts for Gene Significant Runs
+#### V. Average Gene Significance based on 1000 Runs of Random Forest
 
 ## Data
 
