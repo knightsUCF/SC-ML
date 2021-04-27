@@ -5,10 +5,11 @@ from sklearn.model_selection import train_test_split
 from sklearn import metrics
 import numpy as np
 import graph
+import seaborn as sn
 
 
 graph = graph.Graph()
-
+data = data.Data()
 
 
 class Forest:

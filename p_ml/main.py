@@ -1,11 +1,13 @@
 import data
 import net
 import forest
+import graph
 
 
-data = data.data()
+data = data.Data()
 forest = forest.Forest()
 graph = graph.Graph()
+net = net.Net()
 
 
 features = data.get_features()
