@@ -25,7 +25,7 @@ class Data:
         df0 = df0.rename(columns={1: 'targets'})
         cells_to_keep = ['T cell' , 'B cell']
         df0 = df0[df0['targets'].isin(cells_to_keep)]
-        df_targets = pd.DataFrame(df0[df0.columns[-1]], columns = ['targets']) # , 'Age'])
+        df_targets = pd.DataFrame(df0[df0.columns[-1]], columns = ['targets'])
         self.targets = self.convert_to_numeric_labels(df_targets['targets'])
         df_features = df0.drop('targets', 1)
         self.features = df_features.to_numpy()
