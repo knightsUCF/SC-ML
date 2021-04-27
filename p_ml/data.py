@@ -15,8 +15,28 @@ class Data:
         self.features = self.features_df.to_numpy()
         self.targets_df = pd.read_csv('data/targets.txt.gz', header=None,  sep="\t")
         self.targets = self.convert_to_numeric_labels(self.targets_df[1])
-        print(self.features_df)
-        print(self.targets_df)
+
+
+    def keep_only_b_and_t_cells(self):
+        df0 = self.get_features_df()
+        df1 = self.get_targets_df()
+        df1 = df1.set_index(df1.columns[0])
+        df0 = df0.merge(df1, left_index=True, right_index=True)
+        df0 = df0.rename(columns={1: 'targets'})
+        cells_to_keep = ['T cell' , 'B cell']
+        df0 = df0[df0['targets'].isin(cells_to_keep)]
+        df_targets = pd.DataFrame(df0[df0.columns[-1]], columns = ['targets']) # , 'Age'])
+        self.targets = self.convert_to_numeric_labels(df_targets['targets'])
+        df_features = df0.drop('targets', 1)
+        self.features = df_features.to_numpy()
+
+
+    def get_features_df(self):
+        return self.features_df
+
+
+    def get_targets_df(self):
+        return self.targets_df
 
         
     def convert_to_numeric_labels(self, data):
