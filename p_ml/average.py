@@ -11,7 +11,6 @@ data = data.Data()
 forest = forest.Forest()
 
 
-
 runs = 1000 # how many times to run random forest before extracting averages
 samples_to_graph = 100
 
@@ -62,5 +61,3 @@ fig1.update_layout(
 )
 
 fig1.show()
-
-
