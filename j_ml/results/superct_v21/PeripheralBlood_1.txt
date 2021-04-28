@@ -1,0 +1,20 @@
+PeripheralBlood_1.csv
+the number of observations: 283
+the number of features: 14299
+the number of targets: 9
+loss
+	7.600163459777832
+	3.56441593170166
+
+accuracy
+	0.1150442510843277
+	0.2654867172241211
+
+val_loss
+	1.774723768234253
+	1.6423283815383911
+
+val_accuracy
+	0.5087719559669495
+	0.5087719559669495
+

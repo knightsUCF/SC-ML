@@ -1,0 +1,20 @@
+Liver_2.csv
+the number of observations: 261
+the number of features: 16705
+the number of targets: 13
+loss
+	7.629611015319824
+	4.27606201171875
+
+accuracy
+	0.14423076808452606
+	0.36057692766189575
+
+val_loss
+	2.2301883697509766
+	2.15846586227417
+
+val_accuracy
+	0.6226415038108826
+	0.6226415038108826
+
