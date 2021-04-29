@@ -40,7 +40,7 @@ class Net:
         
 
     def evaluate(self):
-        # evaluation accuracy metrics happens at the end of train(), this is further for analysis
+        # evaluation accuracy metrics are output at the end of train(), this is further for analysis
         """
         
         import matplotlib.pyplot as plt
