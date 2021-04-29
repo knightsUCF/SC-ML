@@ -41,42 +41,5 @@ class Net:
 
     def evaluate(self):
         # evaluation accuracy metrics are output at the end of train(), this is further for analysis
-        """
-        
-        import matplotlib.pyplot as plt
-        import seaborn as sn
-        
-        X_test = self.features_test
-        y_test = self.targets_test
-        y_pred = self.model.predict(X_test)
-        print(y_test)
-        print(y_pred)
-        
-        # confusion_matrix = pd.crosstab(y_test, y_pred, rownames=['Actual'], colnames=['Predicted'])
-        
-        # confusion_matrix = metrics.confusion_matrix(y_test.argmax(axis=1), y_pred.argmax(axis=1))
-        # sn.heatmap(confusion_matrix, annot=True)
-        
-        print('/n/n')
-
-
-        # plot training and validation accuracy values
-        plt.plot(self.history.history['accuracy'])
-        plt.plot(self.history.history['val_accuracy'])
-        plt.title('Model accuracy')
-        plt.ylabel('Accuracy')
-        plt.xlabel('Epoch')
-        plt.legend(['Train', 'Validation'], loc='upper left')
-        plt.show()
-        
-        # plot training and validation loss values
-        plt.plot(self.history.history['loss'])
-        plt.plot(self.history.history['val_loss'])
-        plt.title('Model loss')
-        plt.ylabel('Loss')
-        plt.xlabel('Epoch')
-        plt.legend(['Train', 'Validation'], loc='upper left')
-        plt.show()
-        """
         pass
     
