@@ -39,11 +39,8 @@ class Net:
         self.history = self.model.fit(x_train, y_train, batch_size=self.batch_size, epochs=self.epochs, validation_data=(x_test, y_test))
         
 
-    def predict(self):
-        pass
-    
-
     def evaluate(self):
+        # evaluation accuracy metrics happens at the end of train(), this is further for analysis
         """
         
         import matplotlib.pyplot as plt
