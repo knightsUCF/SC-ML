@@ -29,6 +29,6 @@ class Graph:
         x = list(range(2, len(y)))
         x = x.reverse()
         size = 40
-        mapper = linear_cmap(field_name='y', palette=Viridis6 ,low=min(y) ,high=max(y))
+        mapper = linear_cmap(field_name='y', palette=Viridis6, low=min(y), high=max(y))
         graph.scatter(x, y, size = size, color = mapper) 
         show(graph)
