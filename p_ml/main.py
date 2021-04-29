@@ -5,9 +5,10 @@ import graph
 
 
 data = data.Data()
+net = net.Net()
 forest = forest.Forest()
 graph = graph.Graph()
-net = net.Net()
+
 
 
 features = data.get_features()
