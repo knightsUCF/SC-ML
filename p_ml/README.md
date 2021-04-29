@@ -66,11 +66,14 @@ To run the models run main.py:
 import data
 import net
 import forest
+import graph
 
 
-data = data.data()
+data = data.Data()
+net = net.Net()
 forest = forest.Forest()
 graph = graph.Graph()
+
 
 
 features = data.get_features()
