@@ -40,7 +40,7 @@ tma_mfd_33381            0.0            1.0            0.0            0.0       
 [1000 rows x 14063 columns]
 ```
 
-<b>Labels aka Targets (1,000)</b>
+<b>Labels aka Targets - Cell Types (1,000)</b>
 
 ```
                  0            1
