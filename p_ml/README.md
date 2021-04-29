@@ -18,7 +18,7 @@ Here is the overview for the project which aimed to improve upon the SuperCT met
 
 ## I. Data
 
-Data was obtained from the Actinn single cell prediction project. A 50 / 50, train test split was used.
+Data was obtained from the Actinn single cell prediction project. A 50 / 50 train test split was used.
 
 https://github.com/mafeiyang/ACTINN
 
